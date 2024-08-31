@@ -38,8 +38,8 @@ if ((event.body.toLowerCase() == "koi h kya") || (event.body.toLowerCase() == "k
        return api.sendMessage("Aww🥰 Yes My LoVe", threadID);
      };
 
-     if ((event.body.toLowerCase() == "Gud night") || (event.body.toLowerCase() == "good night")) {
-       return api.sendMessage("GOOD NIGHT MERI JAAN MUJHSE CHIPAK KE SONA AA JAO😘🥰", threadID);
+     if ((event.body.toLowerCase() == "@Ranu Mandal") || (event.body.toLowerCase() == "@ranu mandal")) {
+       return api.sendMessage("KHON KAR DUNGI TERAA", threadID);
      };
 
 if ((event.body.toLowerCase() == "🥱") || (event.body.toLowerCase() == "😑")) {
