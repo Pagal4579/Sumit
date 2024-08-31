@@ -13,11 +13,11 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
   var name = await Users.getNameUser(event.senderID);
   var { threadID, messageID } = event;
   let react = event.body.toLowerCase();
-  if(react.includes("HARTLESS") ||
-     react.includes("hartless") || react.includes("Hartless") || react.includes("@Hartless Queen") ||
-react.includes("@Masoom girl 🥀🦋💖") ||
-react.includes("Masoom girl") ||     
-react.includes("masoom")) {
+  if(react.includes("KRISHNA") ||
+     react.includes("Radhe") || react.includes("Hartless") || react.includes("@Hartless Queen") ||
+react.includes("kanha") ||
+react.includes("murli") ||     
+react.includes("Radha")) {
     var msg = {
         body: `💝༄ᶦᶰᵈ᭄🔥⃝яα∂нє яα∂нє❥❥═══🙏 
         
