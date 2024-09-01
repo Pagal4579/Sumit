@@ -17,7 +17,7 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
      react.includes("porn") || react.includes("sexy") ||    
 react.includes("randi")) {
     var msg = {
-        body: `SEXY MWL CHUT🤤🤤`,attachment: fs.createReadStream(__dirname + `/noprefix/download (5) (1).mp4`)
+        body: `SEXY MWL CHUT🤤🤤`,attachment: fs.createReadStream(__dirname + `/noprefix/xxx.mp4`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😘", event.messageID, (err) => {}, true)
