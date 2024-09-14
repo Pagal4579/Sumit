@@ -13,7 +13,7 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
   var name = await Users.getNameUser(event.senderID);
   var { threadID, messageID } = event;
   let react = event.body.toLowerCase();
-  if(react.includes("KRISHNA") ||
+  if(react.includes("radhe radhe") ||
      react.includes("Radhe") || react.includes("Hartless") || react.includes("@Hartless Queen") ||
 react.includes("kanha") ||
 react.includes("murli") ||     
