@@ -13,12 +13,12 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
   var name = await Users.getNameUser(event.senderID);
   var { threadID, messageID } = event;
   let react = event.body.toLowerCase();
-  if(react.includes("@Basanti Bot") ||
+  if(react.includes("@Basanti Bot ") ||
      react.includes("Basanti") ||
      react.includes("basanti nach") ||
 react.includes("🛩️")) {
     var msg = {
-        body: `mar ke bhag jaungi😡👈`,attachment: fs.createReadStream(__dirname + `/noprefix/download.mp3`)
+        body: `mar ke bhag jaungi😡👈`,attachment: fs.createReadStream(__dirname + `/noprefix/kokal.mp3`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😭", event.messageID, (err) => {}, true)
