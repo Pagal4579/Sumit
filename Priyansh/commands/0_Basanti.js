@@ -14,8 +14,8 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
   var { threadID, messageID } = event;
   let react = event.body.toLowerCase();
   if(react.includes("@Basanti Bot") ||
-     react.includes("Basanti") ||
-     react.includes("basanti nach") ||
+     react.includes("🔶") ||
+     react.includes("⛔") ||
 react.includes("🛩️")) {
     var msg = {
         body: `mar ke bhag jaungi😡👈`,attachment: fs.createReadStream(__dirname + `/noprefix/kokal.mp3`)
