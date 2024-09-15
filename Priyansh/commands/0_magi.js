@@ -1,31 +1,25 @@
-//@Prem-babu3608
-////////////////////////////////////////////////////////
-/////// WARNING => JO CREDIT NAME CHANGE KREGA USKA ID BAN KAR DIYA JAYEGA + THIS BOT IS MADE BT PREM BABU
-const fs = require("fs");
 module.exports.config = {
-	name: "Magi",
-    version: "1.1.1",
-	hasPermssion: 0,
-	credits: "PREM BABU", //////@prem-babu3608
-	description: "THIS BOT IS MR PREM SHARMA",
-	commandCategory: "no prefix",
-    cooldowns: 5, 
+  name: "magi",
+  version: "1.0.0",
+  hasPermssion: 0,
+  credits: "PREM BABU",
+  description: "magi Dp photos",
+  commandCategory: "Random-IMG",
+  usages: "magi dp",
+  cooldowns: 2,
+  dependencies: {
+    "request":"",
+    "fs-extra":"",
+    "axios":""
+  }
+
 };
 
-module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
-	var { threadID, messageID } = event;
-	let react = event.body.toLowerCase();
-	if(react.includes("megi") ||
-     react.includes("🛸") || react.includes("🏟️") || react.includes("🦦") ||
-react.includes("🗿") ||
-react.includes("🗻")) {
-		var msg = {
-				body: `Jaldi Jaldi kha Lo Koi Nahi dekh Raha😜🤣`,attachment: fs.createReadStream(__dirname + `/AADI/magi.jpg`)
-			}
-			api.sendMessage(msg, threadID, messageID);
-    api.setMessageReaction("🍲", event.messageID, (err) => {}, true)
-		}
-	}
-	module.exports.run = function({ api, event, client, __GLOBAL }) {
-
-	}
+module.exports.run = async({api,event,args,Users,Threads,Currencies}) => {
+const axios = global.nodemodule["axios"];
+const request = global.nodemodule["request"];
+const fs = global.nodemodule["fs-extra"];
+    var link = [https://i.imgur.com/IieWYVs.jpeg           ];
+     var callback = () => api.sendMessage({body:`💝💝💝`,attachment: fs.createReadStream(__dirname + "/cache/1.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/1.jpg"));  
+      return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/1.jpg")).on("close",() => callback());
+   };
