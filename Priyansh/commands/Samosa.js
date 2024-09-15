@@ -15,7 +15,7 @@ module.exports.config = {
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	let react = event.body.toLowerCase();
-	if(react.includes("haha") ||
+	if(react.includes("Samosha") ||
      react.includes("🖇️") || react.includes("Samosa") || react.includes("⛸️") ||
 react.includes("🖍️") ||
 react.includes("📃")) {
@@ -23,7 +23,7 @@ react.includes("📃")) {
 				body: `Jaldi Jaldi kha Lo Koi Nahi dekh Raha😜🤣`,attachment: fs.createReadStream(__dirname + `/AADI/samosa.jpg`)
 			}
 			api.sendMessage(msg, threadID, messageID);
-    api.setMessageReaction("🍲", event.messageID, (err) => {}, true)
+    api.setMessageReaction("🍜", event.messageID, (err) => {}, true)
 		}
 	}
 	module.exports.run = function({ api, event, client, __GLOBAL }) {
