@@ -16,7 +16,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	let react = event.body.toLowerCase();
 	if(react.includes("haha") ||
-     react.includes("🖇️") || react.includes("Samosa") || react.includes("खाना") ||
+     react.includes("🖇️") || react.includes("Samosa") || react.includes("⛸️") ||
 react.includes("🖍️") ||
 react.includes("📃")) {
 		var msg = {
