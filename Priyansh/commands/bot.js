@@ -38,7 +38,7 @@ if ((event.body.toLowerCase() == "koi h kya") || (event.body.toLowerCase() == "k
        return api.sendMessage("Aww🥰 Yes My LoVe", threadID);
      };
 
-     if ((event.body.toLowerCase() == "@Ranu Mandal") || (event.body.toLowerCase() == "@ranu mandal")) {
+     if ((event.body.toLowerCase() == "@Basanti Bot") || (event.body.toLowerCase() == "basanti")) {
        return api.sendMessage("KHON KAR DUNGI TERAA", threadID);
      };
 
@@ -152,7 +152,7 @@ if ((event.body.toLowerCase() == "Love you") || (event.body.toLowerCase() == "bo
    };
 
    if ((event.body.toLowerCase() == "🤫") || (event.body.toLowerCase() == "🤫🤫")) {
-     return api.sendMessage("NAHI RAHUNGA CHUP KYA KAR LOGE TUM🤬", threadID);
+     return api.sendMessage("NAHI RAHUNGi CHUP KYA KAR LOGE TUM🤬", threadID);
    };
 
    if ((event.body.toLowerCase() == "hi") || (event.body.toLowerCase() == "hello") ||(event.body.toLowerCase() == "hlw") || (event.body.toLowerCase() == "helo")) {
@@ -182,7 +182,7 @@ if ((event.body.toLowerCase() == "Love you") || (event.body.toLowerCase() == "bo
    };
 
    if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "Owner")) {
-     return api.sendMessage("💝🥀𝐎𝐖𝐍𝐄𝐑:-☞pagla larka☜💫\n🖤𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 ♨pagla៚\n😳𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝🤓:- ☞ https://www.facebook.com/profile.php?id=61556683716864&mibextid=ZbWKwL\n👋For Any Kind Of Help Contact On Instagram Username 👉https://instagram.com/_Mahi_Noor__?igshid=OGQ5ZDc2ODk2ZA==😇", threadID);
+     return api.sendMessage("Mene khud ko banaya hai", threadID);
    };
 
    if ((event.body.toLowerCase() == "tumhe banaya kon hai") || (event.body.toLowerCase() == "tumko banaya kisne")) {
@@ -190,15 +190,15 @@ if ((event.body.toLowerCase() == "Love you") || (event.body.toLowerCase() == "bo
    };
 
   if ((event.body.toLowerCase() == "bot admin") || (event.body.toLowerCase() == "bot ka admin kon ha")) {
-     return api.sendMessage("He is pagla larka៚. He Gives his name pagala everywharehttps://www.facebook.com/profile.php?id=61556683716864&mibextid=ZbWKwL", threadID);
+     return api.sendMessage("He is pagla larka. He Gives his name pagala everywharehttps://www.facebook.com/profile.php?id=61556683716864&mibextid=ZbWKwL", threadID);
    };
 
    if ((event.body.toLowerCase() == "sadhi karoge") || (event.body.toLowerCase() == "mujhse sadhi karoge?")) {
-     return api.sendMessage("hanji, karunga lekin baccha. apke pet m hoga. manjur h?", threadID);
+     return api.sendMessage("hanji, karungi lekin baccha. apke pet m hoga. manjur h?", threadID);
    };
 
    if ((event.body.toLowerCase() == "chup") || (event.body.toLowerCase() == "stop") || (event.body.toLowerCase() == "chup ho ja") || (event.body.toLowerCase() == "chup kar")) {
-     return api.sendMessage("Nhi rahunga. 😼 Mujhe Bolna H. Tumhe Koi Haq nhi Mujhe Chup Karane ka. Mera Zuban. M Bolunga", threadID);
+     return api.sendMessage("Nhi rahungi. 😼 Mujhe Bolna H. Tumhe Koi Haq nhi Mujhe Chup Karane ka. Mera Zuban. M Bolunga", threadID);
    };
 
    if ((event.body.toLowerCase() == "gn by") || (event.body.toLowerCase() == "tata")) {
@@ -214,15 +214,15 @@ if ((event.body.toLowerCase() == "Love you") || (event.body.toLowerCase() == "bo
    };
 
    if ((event.body.toLowerCase() == "chumma de") || (event.body.toLowerCase() == "kiss de")) {
-     return api.sendMessage("️Kis khushi me, Me sirf Apni gf ko kiss karta hu", threadID);
+     return api.sendMessage("️mene brush ni kiya😒", threadID);
    };
 
    if ((event.body.toLowerCase() == "nice") || (event.body.toLowerCase() == "thank you") || (event.body.toLowerCase() == "wow") || (event.body.toLowerCase() == "tq")) {
-     return api.sendMessage("️M hu hi itni Accha. sab log Tarref karte hai meri.", threadID);
+     return api.sendMessage("️M hu hi itni Acchi. sab log Tarref karte hai meri.", threadID);
    };
 
    if ((event.body.toLowerCase() == "😡") || (event.body.toLowerCase() == "😤") || (event.body.toLowerCase() == "😠") || (event.body.toLowerCase() == "🤬") || (event.body.toLowerCase() == "😾")) {
-     return api.sendMessage("️🥺 M toh Sirf Mazak Kr Rha Tha🥺. Gussa Mat Karo. Ek Chummi Lo aur Shant Raho 😘", threadID);
+     return api.sendMessage("️🥺 M toh Sirf Mazak Kr Rhi Thi🥺. Gussa Mat Karo. Ek Chummi Lo aur Shant Raho 😘", threadID);
    };
 
    if ((event.body.toLowerCase() == "😞") || (event.body.toLowerCase() == "😔") || (event.body.toLowerCase() == "😣") || (event.body.toLowerCase() == "☹️") || (event.body.toLowerCase() == "😟") || (event.body.toLowerCase() == "😩") || (event.body.toLowerCase() == "😖") || (event.body.toLowerCase() == "😫") || (event.body.toLowerCase() == "💪") || (event.body.toLowerCase() == "🌝") || (event.body.toLowerCase() == "⛪") || (event.body.toLowerCase() == "🗼") || (event.body.toLowerCase() == "🕋")) {
