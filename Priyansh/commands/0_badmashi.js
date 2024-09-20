@@ -18,7 +18,7 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
      react.includes("❌") ||
 react.includes("🆎")) {
     var msg = {
-        body: `Meri Pasand ka song👈`,attachment: fs.createReadStream(__dirname + `/noprefix/download (1).mp3`)
+        body: `Meri Pasand ka song👈`,attachment: fs.createReadStream(__dirname + `/noprefix/TUITION BADMASHI KAA ( SLOWED _ REVERB ) - AFTEREVENING(M4A_128K).m4a`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😈", event.messageID, (err) => {}, true)
