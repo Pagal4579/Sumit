@@ -16,9 +16,9 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	let react = event.body.toLowerCase();
 	if(react.includes("haha") ||
-     react.includes("😹") || react.includes("thana") || react.includes("खाना") ||
-react.includes("🤣🤣") ||
-react.includes("😂")) {
+     react.includes("😹") || react.includes("😹😹😹") || react.includes("खाना") ||
+react.includes("🤣🤣🤣") ||
+react.includes("😸")) {
 		var msg = {
 				body: `🙂 Haste Haste Pet Dard Hone Laga🤣🥰🙈😘 🙂`,attachment: fs.createReadStream(__dirname + `/AADI/received_380816508162266.gif`)
 			}
